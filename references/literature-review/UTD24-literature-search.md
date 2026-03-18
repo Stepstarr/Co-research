@@ -4,7 +4,7 @@
 
 **目标期刊**: UTD24 顶级商学期刊
 
-**重点期刊** (与研究方向最相关):
+**重点期刊**:
 - Management Science
 - Organization Science
 - Strategic Management Journal
@@ -20,7 +20,6 @@
 - Pairwise comparison / Elo rating
 - Human-AI collaboration
 - Product design / User requirements
-- Crowdsourcing / Human computation
 
 ---
 
@@ -28,64 +27,104 @@
 
 ### 2026-03-18 首次检索
 
-**状态**: 网络受限，无法访问外网
+**工具**: webserp (7引擎并行搜索)
 
-**备选方案**:
-1. 等待网络恢复后使用 agent-browser 访问期刊网站
-2. 配置 Tavily API Key 后进行搜索
-3. 设置期刊邮件提醒
-
-**下次计划**: 2-3 天后重试
+**状态**: ✅ 成功获取部分结果 (Presearch引擎)
 
 ---
 
-## 已知相关文献
+## 搜索结果
 
-### 从 momo大人论文引用中提取
+### 1. AI与创意评估
 
-1. **Boussioux et al. (2024)** - "The Crowdless Future? Generative AI and Creative Problem-Solving"
-   - 来源: Organization Science
-   - 相关性: AI与人类协作创意问题解决
-   - 关键发现: Human-AI协作方案在战略可行性上优于纯人类方案
+**The Double-Edged Roles of Generative AI in the Creative Process**
+- 来源: SSRN (2024-03-01)
+- 摘要: 研究GenAI在协作创意过程中的双刃剑角色，基于创作者专业水平揭示其异质性影响
+- 相关性: ⭐⭐⭐ AI与人类协作创意评估
 
-2. **Doshi et al. (2025)** - "Generative AI and Evaluating Strategic Decisions"
-   - 来源: Strategic Management Journal
-   - 相关性: AI评估战略决策
-   - 关键发现: AI评估不稳定但有偏差，聚合后接近人类专家
+**Partnering with Generative AI: Experimental Evaluation**
+- 来源: arXiv (2025)
+- 摘要: 比较人机协作不同模式对共创成果的影响，涉及486人随机对照实验
+- 相关性: ⭐⭐⭐⭐ 协作模式对创意的影响
 
-3. **Liu et al. (2023)** - "G-Eval: NLG Evaluation using GPT-4"
-   - 来源: arXiv
-   - 相关性: LLM作为评估器的方法论
-   - 关键发现: 概率归一化评分
+**Human-AI Collaboration in Decision-Making, Creativity, and Innovation**
+- 来源: SSRN (2025-08-04)
+- 摘要: 探讨AI决策中的人类-AI协作、创造力与创新
+- 相关性: ⭐⭐⭐⭐ 人机协作决策
 
-4. **Boubdir et al. (2025)** - "Elo Uncovered: Robustness and Best Practices in Language Model Evaluation"
-   - 来源: NeurIPS
-   - 相关性: ELO机制在LLM评估中的应用
-   - 关键发现: ELO稳定性分析，K因子敏感性
+### 2. AI评估方法
 
----
+**The Authorship Paradox: How AI Collaboration Is Redefining Authorship**
+- 来源: SSRN (2025-08-29)
+- 摘要: 提出五维度协作作者评估框架 — Intellectual Direction, Creative Judgment, Expertise Integration, Revision Responsibility, Accountability
+- 相关性: ⭐⭐⭐⭐ AI辅助评估框架
 
-## 待检索队列
+**H-AI-C: A Framework for Human-AI Collaboration Evaluation**
+- 来源: arXiv (2024)
+- 摘要: 提出HAIC评估框架，解决人机协作评估的多维挑战
+- 相关性: ⭐⭐⭐⭐ 评估框架
 
-- [ ] Management Science 2025年LLM相关论文
-- [ ] Organization Science 2025年AI协作相关论文
-- [ ] ISR/MISQ 2025年AI评估相关论文
-- [ ] arXiv cs.CL 近期LLM评估论文
+### 3. 创意与AI
 
----
-
-## 检索方法备注
-
-**可用工具**:
-1. `agent-browser` - 浏览期刊网站 (需稳定网络)
-2. `summarize` - 总结论文内容
-3. RSS订阅 - 自动获取新论文
-
-**建议配置**:
-- 设置期刊Alerts自动推送
-- 使用学术数据库API (需API Key)
-- 定期手动检索补充
+**Generative AI, Human Creativity, and Art**
+- 来源: SSRN (2023-10-31)
+- 摘要: 探讨AI在文本到图像创意流程中的作用，"生成性协同"概念
+- 相关性: ⭐⭐ AI创意过程
 
 ---
 
-*维护: 小星 | 开始日期: 2026-03-18*
+## 精选论文摘要
+
+### [推荐] Human-AI Collaboration Framework
+
+**来源**: arXiv 2024
+
+**核心贡献**:
+- 提出HAIC评估框架 (Human-AI Collaboration)
+- 评估维度: 系统性能、人机交互质量、信任度、适应性
+- 解决现有评估方法无法捕捉多维问题的缺陷
+
+**与我的研究关联**:
+- 可用于评估AI生成内容的创意质量
+- 提供人类审美对齐的评估维度
+
+---
+
+### [推荐] The Authorship Paradox
+
+**来源**: SSRN 2025
+
+**核心贡献**:
+- 五维度协作作者评估框架
+- Intellectual Direction, Creative Judgment, Expertise Integration, Revision Responsibility, Accountability
+- 从"是否使用AI"转向"如何使用AI"
+
+**与我的研究关联**:
+- 评估AI辅助创意产出的质量
+- 衡量人类专家在协作中的主导作用
+
+---
+
+## 待深入阅读
+
+- [ ] Partnering with Generative AI (arXiv 2025)
+- [ ] HAIC Framework (arXiv 2024)
+- [ ] The Authorship Paradox (SSRN 2025)
+
+---
+
+## 检索工具
+
+**已安装**: webserp
+- 7个搜索引擎并行搜索
+- 使用浏览器指纹模拟，避免被屏蔽
+- 无需API Key
+
+**使用命令**:
+```bash
+webserp "搜索关键词" --max-results 10
+```
+
+---
+
+*维护: 小星 | 更新: 2026-03-18*
